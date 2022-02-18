@@ -1,6 +1,6 @@
 {
   "projectName": "__replace_me__",
-  "projectOwner": "vuestorefront",
+  "projectOwner": "{appibase}",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [

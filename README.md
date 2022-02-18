@@ -3,7 +3,7 @@
 This is a template, to use it you must rename the project changing the `{YOUR INTEGRATION NAME}` to the name of the integration you are developing. The name must be in lowercase and without any special characters.
 
 ```sh
-grep -rl '__replace_me__' ./ | xargs sed -i '' 's/__replace_me__/{YOUR INTEGRATION NAME}/g'
+grep -rl '{appibase}' ./ | xargs sed -i '' 's/{appibase}/{appibase}/g'
 ```
 
 ------
@@ -14,7 +14,7 @@ grep -rl '__replace_me__' ./ | xargs sed -i '' 's/__replace_me__/{YOUR INTEGRATI
 
 ## Vue Storefront 2 integration with __replace_me__
 
-To learn how to build your integration, see our [Integration guide](https://docs.vuestorefront.io/v2/integrate/integration-guide.html).
+To learn how to build your integration, see our [Integration guide](https://docs.{appibase}.io/v2/integrate/integration-guide.html).
 
 ------
 
@@ -32,7 +32,7 @@ vsf init <project_name> && cd <project_name> && yarn && yarn dev
 
 ## How to start if you want to contribute?
 
-Want to contribute? Ping us on `__replace_me__` channel on [our Discord](https://discord.vuestorefront.io)!
+Want to contribute? Ping us on `__replace_me__` channel on [our Discord](https://discord.{appibase}.io)!
 
 ### Requirements:
 - NodeJS v14 or later
@@ -42,7 +42,7 @@ Want to contribute? Ping us on `__replace_me__` channel on [our Discord](https:/
 2. Clone your fork of the repo
     ```
     example:
-    git clone https://github.com/vuestorefront/__replace_me__.git
+    git clone https://github.com/{appibase}/__replace_me__.git
     cd __replace_me__
     ```
 3. Run `yarn` to install dependencies
@@ -53,13 +53,13 @@ Want to contribute? Ping us on `__replace_me__` channel on [our Discord](https:/
 
 ## Resources
 
-- [Vue Storefront Documentation](https://docs.vuestorefront.io/v2/)
-- [__replace_me__ integration Documentation](https://docs.vuestorefront.io/__replace_me__)
-- [Community Chat](https://discord.vuestorefront.io)
+- [Vue Storefront Documentation](https://docs.{appibase}.io/v2/)
+- [__replace_me__ integration Documentation](https://docs.{appibase}.io/__replace_me__)
+- [Community Chat](https://discord.{appibase}.io)
 
 ## Support
 
-If you have any questions about this integration we will be happy to answer them on `__replace_me__` channel on [our Discord](discord.vuestorefront.io).
+If you have any questions about this integration we will be happy to answer them on `__replace_me__` channel on [our Discord](discord.{appibase}.io).
 
 ## Contributors ✨
 

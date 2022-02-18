@@ -33,18 +33,18 @@ module.exports = {
   '@vuepress/search'
 ],
   themeConfig: {
-    repo: 'https://github.com/vuestorefront/__replace_me__',
+    repo: 'https://github.com/{appibase}/__replace_me__',
     editLinks: true,
     docsDir: 'docs',
     docsBranch: 'develop',
     editLinkText: 'Edit this page',
     logo: 'https://user-images.githubusercontent.com/1626923/137092657-fb398d20-b592-4661-a1f9-4135db0b61d5.png',
     nav: [
-      { text: 'Vue Storefront', link: 'https://vuestorefront.io/' },
-      { text: 'Core Documentation', link: 'https://docs.vuestorefront.io/v2/' },
+      { text: 'Vue Storefront', link: 'https://{appibase}.io/' },
+      { text: 'Core Documentation', link: 'https://docs.{appibase}.io/v2/' },
       // { text: 'Demo', link: '' },
-      { text: 'GitHub', link: 'https://github.com/vuestorefront/__replace_me__'},
-      { text: 'Roadmap', link: 'https://github.com/vuestorefront/__replace_me__'}
+      { text: 'GitHub', link: 'https://github.com/{appibase}/__replace_me__'},
+      { text: 'Roadmap', link: 'https://github.com/{appibase}/__replace_me__'}
     ],
     sidebar: [
       {

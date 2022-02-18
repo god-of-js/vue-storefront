@@ -4,7 +4,7 @@
   "description": "Documentation for __replace_me__ integration for Vue Storefront",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/vuestorefront/__replace_me__/docs",
+  "repository": "https://github.com/{appibase}/__replace_me__/docs",
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",

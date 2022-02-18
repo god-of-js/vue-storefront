@@ -14,7 +14,7 @@ $ yarn build
 $ yarn start
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://docs.vuestorefront.io/v2/).
+For detailed explanation on how things work, check out the [documentation](https://docs.{appibase}.io/v2/).
 
 ## Special Directories
 
